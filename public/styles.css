@@ -1,0 +1,44 @@
+.main-container,.left-container,.right-container,.header-container,.body-container{
+    display: flex;
+}
+.header-container,.body-container{
+    flex-direction: row;
+}
+.main-container{
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-container{
+    height:10%;
+    
+}
+.left-header,.right-header{
+    display: flex;
+    
+}
+.left-header{
+    width: 15%;
+}
+.right-header{
+    width: 85%;
+}
+
+
+.body-container{
+    height: 90%;
+    width: 100%;
+}
+.left-container,.right-container{
+    height: 100%;
+}
+.left-container{
+    flex-direction: column;
+    width:15%;
+}
+
+.right-container{
+    flex-direction: row;
+    width:85%;
+}
