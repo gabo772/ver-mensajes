@@ -42,3 +42,37 @@
     flex-direction: row;
     width:85%;
 }
+
+/* CONTENT */
+
+.grid,.home,.upload,.data,.title,.description{
+    display: flex;
+}
+
+.grid{
+    width: 100%;
+    margin:1em;
+    border-style: solid;
+}
+.home{
+    flex-direction: column;
+}
+.home .title{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20%;
+
+
+}
+.home .title p{
+    font-size: 28px;
+
+}
+.home .description{
+    flex-direction: column;
+    margin-top: 1em;
+}
+.home .description p{
+    font-size: 18px;
+}
